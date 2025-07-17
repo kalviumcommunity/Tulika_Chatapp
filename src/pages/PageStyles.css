@@ -1,0 +1,100 @@
+/* General page wrapper */
+.page {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+  background-color: #fff0f5; /* soft pink */
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+}
+
+/* Headings */
+.page h1,
+.page h2 {
+  color: #e75480;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Paragraph text */
+.page p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+/* Buttons used across pages */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.btn.primary {
+  background-color: #e75480;
+  color: white;
+}
+
+.btn.primary:hover {
+  background-color: #d63b6c;
+}
+
+.btn.secondary {
+  background-color: transparent;
+  color: #e75480;
+  border: 2px solid #e75480;
+}
+
+.btn.secondary:hover {
+  background-color: #ffe4ec;
+}
+
+/* Forms (used in Contact page) */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  width: 100%;
+}
+
+.contact-form button {
+  background-color: #e75480;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #d63b6c;
+}
+
+/* Success message */
+.success-msg {
+  color: green;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+}
